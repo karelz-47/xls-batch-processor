@@ -1,4 +1,5 @@
 streamlit==1.25.0
 pandas
-openpyxl
 requests
+openpyxl
+pillow==9.4.0
