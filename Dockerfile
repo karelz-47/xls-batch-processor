@@ -30,4 +30,4 @@ EXPOSE 8000
 
 # 7) Command: run Streamlit on $PORT. 
 #    Railway provides the port as an env var, so we read $PORT 
-CMD ["sh", "-c", "streamlit run xbp_v5.py --server.port=$PORT --server.address=0.0.0.0"]
+CMD ["sh", "-c", "streamlit run xbp_v4.py --server.port=$PORT --server.address=0.0.0.0"]
